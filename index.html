@@ -5,26 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mausam App</title>
-    <script src="./app.js"></script>
+    <script src="./app.js" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="card">
         <div class="search">
             <input type="text" class="search_bar" placeholder="Search">
-            <button for="search_bar" ><i class="fa-solid fa-magnifying-glass"></i></button>
+            <button for="search_bar" ><img src="./img/search.png" alt=""></button>
         </div>
-        <div class="weather">
+        <div class="weather loading">
             <h2 class="city">Weather in Delhi</h2>
-            <h1 class="temp">51°C</h1>
-            <img src="" alt="" class="icon">
-            <div class="description">description</div>
-            <div class="humidity">humidity: 50%</div>
-            <div class="wind">wind speed : 6 Km/h</div>
+            <h1 class="temp"></h1>
+            <div class="flex">
+                <img src="https://openweathermap.org/img/wn/04n@2x.png" alt="" class="icon">
+            <div class="description"> </div>
+            </div>
+            <div class="humidity"></div>
+            <div class="wind"> </div>
         </div>
     </div>
 
 
-    <script src="https://kit.fontawesome.com/ce328ec234.js" crossorigin="anonymous"></script>
 </body>
 </html>
